@@ -9,10 +9,10 @@ Scripts and stuff collection
 
 - The script will:
   1. Ask you for a YT link. Can be a single video link or a playlist
-  2. Download, using `youtube-download`, the `\*.m4a` file for that video(s)
-  3. Once done, convert the downloaded file(s) with `ffmpeg` to `\*.mp3` format
+  2. Download, using `youtube-download`, the `*.m4a` file for that video(s)
+  3. Once done, convert the downloaded file(s) with `ffmpeg` to `*.mp3` format
   4. Delete all \*.m4a files
-WARNING: if succeeded, the script will convert ALL existing `\*.m4a` files to `\*.mp3`, and will erase ALL `\*.m4a` files inside the working directory afterwards
+WARNING: if succeeded, the script will convert ALL existing `*.m4a` files to `*.mp3`, and will erase ALL `*.m4a` files inside the working directory afterwards
 
 - How to:
   1. Download the script. You can use `git clone https://github.com/voider755/scriptsandstuff.git`, or download the `raw` file, or just copy and paste the text in a blank text file

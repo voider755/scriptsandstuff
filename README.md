@@ -13,7 +13,7 @@ Scripts and stuff collection
   3. Once done, convert the downloaded file(s) with `ffmpeg` to `*.mp3` format
   4. Delete all \*.m4a files
 
-WARNING: if succeeded, the script will convert ALL existing `*.m4a` files to `*.mp3`, and will erase ALL `*.m4a` files inside the working directory afterwards
+**WARNING**: if succeeded, the script will convert ALL existing `*.m4a` files to `*.mp3`, and will erase ALL `*.m4a` files inside the working directory afterwards
 
 - How to:
   1. Download the script. You can use `git clone https://github.com/voider755/scriptsandstuff.git`, or download the `raw` file, or just copy and paste the text in a blank text file

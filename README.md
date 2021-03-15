@@ -21,7 +21,7 @@ Bits and bytes written just to learn some bash-fu. Not meant to be extraordinary
 
 `youtube-dl --extract-audio --audio-format mp3 <yt_link>`
 
-Only differences with `yttomp3` are that the former will just prompt you for a YT link (no need to write any actual command, just calling the script), and it has a more verbose output (i. e., it will output the ffmpeg bit, indicating the conversion progress) Use whatever you prefer
+Only differences with `yttomp3` are that the former will just prompt you for a YT link (no need to write any actual command, just calling the script), and it has a more verbose output (i. e., it will output the `ffmpeg` bit, indicating the conversion progress) Use whatever you prefer
 
 - How to:
   1. Download the script. You can use `git clone https://github.com/voider755/scriptsandstuff.git`, or download the `raw` file, or just copy and paste the text in a blank text file

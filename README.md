@@ -1,6 +1,8 @@
 # scriptsandstuff
 Scripts and stuff collection
 
+Bits and bytes written just to learn some bash-fu. Not meant to be extraordinary original and/or useful. Read the code if you wish and do whatever you want with it, everything's MIT Licensed so you know the deal <3
+
 ## yttomp3
 - A bash script to download audio file(s) from YT and convert them to `mp3`
   - YT downloaded audios with the `.m4a` extension are playable in, say, `audacious`, but editing metadata seems not possible with said application. So we're downloading and converting the audio files to `mp3` so we can edit its metadata.

@@ -15,6 +15,12 @@ Scripts and stuff collection
 
 **WARNING**: if succeeded, the script will convert ALL existing `*.m4a` files to `*.mp3`, and will erase ALL `*.m4a` files inside the working directory afterwards
 
+**NOTE**: `youtube-dl` has a native capacity for downloading and converting YT files to mp3, so you can just use:
+
+`youtube-dl --extract-audio --audio-format mp3 <yt_link>`
+
+Only differences with `yttomp3` are that the former will just prompt you for a YT link (no need to write any actual command, just calling the script), and it has a more verbose output (i. e., it will output the ffmpeg bit, indicating the conversion progress) Use whatever you prefer
+
 - How to:
   1. Download the script. You can use `git clone https://github.com/voider755/scriptsandstuff.git`, or download the `raw` file, or just copy and paste the text in a blank text file
   2. Give the script execute permissions, for example: `chmod u+x yttomp3.sh`
